@@ -32,16 +32,22 @@ namespace accendiSpegni
         int y = 223;
         private void button3_Click(object sender, EventArgs e)
         {
-            y = y - 10;
-            pictureBox1.Location = new Point(x, y);
-            pictureBox2.Location = new Point(x, y);
+            if (y > 0)
+            {
+                y = y - 10;
+                pictureBox1.Location = new Point(x, y);
+                pictureBox2.Location = new Point(x, y);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            y = y + 10;
-            pictureBox1.Location = new Point(x, y);
-            pictureBox2.Location = new Point(x, y);
+            if (y < 270)
+            {
+                y = y + 10;
+                pictureBox1.Location = new Point(x, y);
+                pictureBox2.Location = new Point(x, y);
+            }
         }
     }
 }
