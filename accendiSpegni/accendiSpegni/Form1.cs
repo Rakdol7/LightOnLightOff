@@ -27,7 +27,7 @@ namespace accendiSpegni
         {
 
         }
-
+        //inizializzazione delle coordinate
         int x = 328;
         int y = 223;
         private void button3_Click(object sender, EventArgs e)
