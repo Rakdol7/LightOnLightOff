@@ -49,5 +49,13 @@ namespace accendiSpegni
                 pictureBox2.Location = new Point(x, y);
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            x = 328;
+            y = 223;
+            pictureBox1.Location = new Point(x, y);
+            pictureBox2.Location = new Point(x, y);
+        }
     }
 }
